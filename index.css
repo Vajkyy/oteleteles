@@ -6,7 +6,7 @@
   height: 100%;
   object-fit: cover;
   z-index: -1;
-  opacity: 1; 
+  opacity: 1;
 }
 body {
   font-family: Arial, sans-serif;
@@ -16,7 +16,7 @@ body {
   padding: 0;
   line-height: 1.6;
   transition: background-color 0.3s ease, color 0.3s ease;
-  background: url('KEPEK/gif2.gif') no-repeat center center fixed;
+  background: url("KEPEK/gif2.gif") no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -67,7 +67,7 @@ nav a:hover {
 }
 
 nav a::after {
-  content: '';
+  content: "";
   display: block;
   width: 0;
   height: 2px;
@@ -104,7 +104,7 @@ h2 {
 }
 
 h2::before {
-  content: '';
+  content: "";
   width: 50px;
   height: 4px;
   background: #ffffff;
@@ -124,7 +124,6 @@ p {
   gap: 20px;
   margin-bottom: 40px;
 }
-
 
 .grid-container:nth-child(odd) .text-content {
   order: 1;
@@ -178,6 +177,25 @@ footer p {
   color: #aaaaaa;
   margin: 0;
   font-size: 0.9em;
+}
+.social-media {
+  margin-top: 10px;
+}
+
+.social-icon {
+  color: #ffffff;
+  font-size: 24px;
+  margin: 0 15px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+  color: #00aced; /* Kék szín a Twitter ikonhoz, például */
+}
+
+.social-icon i {
+  margin-right: 8px; /* Kis távolság az ikonok között */
 }
 
 @keyframes fadeIn {

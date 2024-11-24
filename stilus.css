@@ -86,7 +86,7 @@ nav a:hover {
 }
 
 nav a::after {
-  content: '';
+  content: "";
   display: block;
   width: 0;
   height: 2px;
@@ -122,7 +122,7 @@ h2 {
 }
 
 h2::before {
-  content: '';
+  content: "";
   width: 50px;
   height: 4px;
   background: #ffffff;
@@ -148,6 +148,25 @@ footer p {
   color: #aaaaaa;
   margin: 0;
   font-size: 0.9em;
+}
+.social-media {
+  margin-top: 10px;
+}
+
+.social-icon {
+  color: #ffffff;
+  font-size: 24px;
+  margin: 0 15px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+  color: #00aced; /* Kék szín a Twitter ikonhoz, például */
+}
+
+.social-icon i {
+  margin-right: 8px; /* Kis távolság az ikonok között */
 }
 
 @keyframes fadeIn {

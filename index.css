@@ -29,6 +29,7 @@ main {
 
 header {
   background: linear-gradient(90deg, #1c1c1c, #333333);
+  background-image: url(KEPEK/hatter.mp4);
   padding: 20px;
   text-align: center;
   position: sticky;
@@ -85,7 +86,7 @@ nav a:hover::after {
 }
 
 article {
-  background-color: #1a1a1a;
+  background-image: url(KEPEK/hatter.mp4);
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.4);

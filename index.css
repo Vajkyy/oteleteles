@@ -29,7 +29,7 @@ main {
 
 header {
   background: linear-gradient(90deg, #1c1c1c, #333333);
-  background-image: url(KEPEK/hatter.mp4);
+  background-image: url();
   padding: 20px;
   text-align: center;
   position: sticky;
@@ -86,7 +86,7 @@ nav a:hover::after {
 }
 
 article {
-  background-image: url(KEPEK/hatter.mp4);
+  background-image: url();
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.4);
@@ -194,11 +194,11 @@ footer p {
 }
 
 .social-icon:hover {
-  color: #00aced; /* Kék szín a Twitter ikonhoz, például */
+  color: #00aced; 
 }
 
 .social-icon i {
-  margin-right: 8px; /* Kis távolság az ikonok között */
+  margin-right: 8px;
 }
 
 @keyframes fadeIn {
@@ -223,7 +223,6 @@ footer p {
   }
 }
 
-/* Media Queries */
 @media (max-width: 768px) {
   header h1 {
     font-size: 2em;
